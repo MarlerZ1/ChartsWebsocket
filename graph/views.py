@@ -1,0 +1,5 @@
+from django.shortcuts import render
+
+# Create your views here.
+def index(request):
+    return render(request, 'graph/index.html', context={"text": "Testing2"})
